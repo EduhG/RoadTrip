@@ -31,6 +31,13 @@ body {
     text-align: center;
 }
 
+.vertical-align-content {
+    /*    align-items: center;*/
+    display: flex !important;
+    justify-content: center !important;
+    flex-direction: column !important;
+}
+
 .login-section {
     text-align: center;
 }
@@ -43,4 +50,29 @@ body {
 .login-form {
     text-align: justify !important;
     width: 300px !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.form-footer {
+    padding: 20px 0;
+    padding-top: 0;
+}
+
+.caption-text {
+    text-align: center;
+    height: 100% !important;
+    margin: auto !important;
+    font-size: 60px;
+    padding: 100px !important;
+    color: #fff;
+}
+
+.caption-text p {
+    padding: 0 !important;
+    margin: 0;
+}
+
+.rd-logo img {
+    width: 100px !important
 }
